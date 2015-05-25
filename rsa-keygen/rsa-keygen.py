@@ -13,13 +13,9 @@ CHALLENGE_URL = KEY_GEN + "/challenge" + NAME
 PK_URL = KEY_GEN  + "/PK" + NAME
 CONFIRM_URL = KEY_GEN + "/confirmation" + NAME
 
-KEY_SECTION = "Key"
 PRIMES_SECTION = "Primes"
-E_SECTION = "e"
 P_SECTION = "p"
 Q_SECTION = "q"
-N_SECTION = "n"
-D_SECTION = "d"
 
 E = 'e'
 N = 'n'
