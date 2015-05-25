@@ -130,7 +130,7 @@ if __name__ == "__main__":
 	if gcd((p - 1)*(q - 1), e) == 1:
 		print("p and q are correct!\n:-)")
 	else:
-		print("p and q are nit correct!\n:-(")
+		print("p and q are not correct!\n:-(")
 		exit(1)
 
 	cipher = send_key(e, n)
