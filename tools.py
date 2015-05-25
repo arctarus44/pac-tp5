@@ -2,10 +2,18 @@ from fractions import gcd
 import random
 
 NAME = "/dewarumez"
-BASE_URL = "http://pac.bouillaguet.info/TP5"
+BASE_URL = "http://pac.bouillaguet.info/TP5/"
 
 AFF_ERROR = "Error no {0} : {1}"
 STATUS = 'status'
+
+KEY_SECTION = "Key"
+E_SECTION = 'e'
+N_SECTION = 'n'
+D_SECTION = 'd'
+P_SECTION = 'p'
+Q_SECTION = 'q'
+
 
 def print_serverError_exit(err):
 	print(AFF_ERROR.format(err.code, err.msg))
